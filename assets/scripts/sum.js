@@ -14,7 +14,7 @@ const sumElements = values => {
 
 // Function to display the sum
 const displayOutput = () => {
-  const input = document.querySelector('#input')
+  const input = document.getElementById('input')
   // Convert all substrings from the input field into numbers
   const values = input.value.split(',').map(Number)
   const result = sumElements(values)
